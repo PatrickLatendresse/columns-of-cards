@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
   font-family: "Open Sans", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
   background-color: #f2f2f2;
+  font-family: "Open Sans", serif;
 }
 
 img {
@@ -20,21 +21,106 @@ img {
 
 .title {
   text-align: center;
-  font-size: 2rem;
 }
 
-.quest{
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quest {
   background-color: #e2e2e2;
+  width: 25%;
+  border-left: solid #333;
+  border-width: 1px;
+  padding: 1.5rem;
 }
 
 .knights {
   background-color: #ccc;
+  width: 25%;
+  border-left: solid #333;
+  border-width: 1px;
+  padding: 1.5rem;
+  font-weight: bold;
 }
 
 .dragon {
   background-color: #aaa;
+  width: 25%;
+  border-left: solid #333;
+  border-width: 1px;
+  padding: 1.5rem;
 }
 
 .ships {
   background-color: #999;
+  width: 25%;
+  border-left: solid #333;
+  border-width: 1px;
+  padding: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 1.5rem 1.5rem;
+}
+
+.btn {
+  font-size: .875rem;
+  background-color: #333;
+  color: #fff;
+  padding: .75rem;
+  display: block;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.name {
+  font-style: italic;
+  padding: 0;
+  font-size: .875rem;
+}
+
+.cards img {
+  margin: -.8rem auto 1.5rem;
+  width: 100px;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+div a {
+  color: #fff;
+  padding: .4em .5em .3em;
+  padding-bottom: .4em;
+  border-radius: 8px;
+  border-width: 6px;
+  text-decoration: none;
+  display: inline;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cards div {
+  width: 33.3333%;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
