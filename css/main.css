@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Merriweather, serif;
+  font-family: "Open Sans", serif;
 }
 
 *, *::before, *::after {
@@ -10,9 +10,31 @@ html {
 
 body {
   margin: 0;
+  background-color: #f2f2f2;
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.quest{
+  background-color: #e2e2e2;
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.ships {
+  background-color: #999;
 }
